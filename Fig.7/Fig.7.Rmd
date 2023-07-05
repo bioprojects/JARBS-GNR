@@ -1,0 +1,85 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code.
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
+
+```{r}
+plot(cars)
+```
+
+```{r}
+proxy_url = "http://proxy2.nih.go.jp:8080"
+Sys.setenv("http_proxy" = proxy_url)
+Sys.setenv("https_proxy" = proxy_url)
+```
+
+```{r}
+install.packages("scatterpie")
+```
+
+```{r}
+library(readr)
+library(scatterpie)
+```
+
+```{r}
+merge_IMP1_2022 <- read_csv("Fig.7_IMP1_YS.csv")
+```
+
+```{r}
+merge_IMP1_2022
+```
+
+```{r}
+merge_IMP1_2022_1 <- ggplot() + geom_scatterpie(aes(x=hospital_id_1, y=Y_axis_id_imp, r = value_1/5), data = merge_IMP1_2022, cols = colnames(merge_IMP1_2022[, 8:12]), alpha = 0.75) + scale_fill_manual(values = c("Klebsiella spp" = "green3", "Escherichia coli" = "darkorange1", "Enterobacter spp" = "deeppink", "Citrobacter freundii" = "blue2", "others"="grey40")) + labs(x = "Hospital", y = "Inc type") + theme_bw()
+blaIMP1_2 <- merge_IMP1_2022_1 + geom_scatterpie_legend(r = merge_IMP1_2022$value_1/5, x=72, y=2)
+blaIMP1_3 <- blaIMP1_2 + theme(panel.grid.major = element_line(colour="black", linetype="dashed", size=0.5))
+blaIMP1_4 <- blaIMP1_3 + theme(panel.grid.minor.y = element_blank()) + theme(panel.grid.minor.x = element_blank()) + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + theme(text = element_text(size = 16)) + theme(axis.title.x=element_text(size=20, lineheight=.9)) + theme(axis.title.y=element_text(size=20, lineheight=.9)) + theme(legend.title=element_blank(), axis.text=element_text(colour = "black"))
+blaIMP1_5 <- blaIMP1_4 + geom_point(size = 10) + scale_y_continuous(breaks=c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12), labels=c('others', 'ND', 'IncN-IncFIA', 'IncN', 'IncM2', 'IncM1', 'IncHI2', 'IncFII(pECLA)', 'IncFII', 'IncFIB-FII', 'IncFIA-R', 'IncFIA', 'IncC')) + scale_x_continuous(breaks=c(30, 20, 34, 6, 29, 11, 32, 28, 18, 0, 23, 16, 13, 15, 44, 25, 53, 51, 10, 70, 27, 17, 8, 4, 21, 22, 59, 62, 67, 58, 55, 49, 48, 47, 45, 69, 68, 35, 64, 65, 43, 40, 39, 38, 63, 57, 1, 61, 60, 56, 50, 52, 14, 3, 66, 9, 5, 2, 19, 31, 12, 41, 37, 54, 26, 46, 24, 33, 7, 36, 42), labels=c('Aichi-C', 'Hyogo-A', 'Gifu-A', 'Fukuoka-D', 'Aichi-D', 'Ehime-A', 'Shizuoka-B', 'Aichi-F', 'Hyogo-C', 'Okinawa-A', 'Osaka-A', 'Hyogo-E', 'Okayama-C', 'Nara-A', 'Toky-S', 'Mie-A', 'Tokyo-I', 'Tokyo-K', 'Kochi-A', 'Yamagata-A', 'Aichi-G', 'Hyogo-D', 'Fukuoka-B', 'Fukuoka-F', 'Osaka-E', 'Osaka-B', 'Tokyo-B', 'Chiba-C', 'Tochigi-A', 'Tokyo-C', 'Tokyo-F', 'Tokyo-M', 'Tokyo-N', 'Tokyo-P', 'Tokyo-R', 'Yamagata-B', 'Ibaraki-A', 'Nagano-A', 'Saitama-D', 'Saitama-C', 'Kanagawa-A', 'Kanagawa-D', 'Kanagawa-E', 'Kanagawa-F', 'Chiba-A', 'Tokyo-D', 'Kumamoto-A', 'Chiba-D', 'Tokyo-A', 'Tokyo-E', 'Tokyo-L', 'Tokyo-J', 'Okayama-B', 'Fukuoka-G', 'Saitama-A', 'Fukuoka-A', 'Fukuoka-E', 'Saga-A', 'Hyogo-B', 'Aiichi-A', 'Tokushima-A', 'Kanagawa-C', 'Kanagawa-G', 'Tokyo-G', 'Aichi-H', 'Tokyo-Q', 'Kyoto-B', 'Shizuoka-A', 'Fukuoka-C', 'Kanazawa-A', 'Kanagawa-B'))
+plot(blaIMP1_5)
+```
+
+```{r}
+merge_IMP6_2022 <- read_csv("Fig.7_IMP6.csv")
+```
+
+```{r}
+merge_IMP6_2022_1 <- ggplot() + geom_scatterpie(aes(x=hospital_id_1, y=Y_axis_id_imp, r = value_1/5), data = merge_IMP6_2022, cols = colnames(merge_IMP6_2022[, 8:12]), alpha = 0.75) + scale_fill_manual(values = c("Klebsiella spp" = "green3", "Escherichia coli" = "darkorange1", "Enterobacter spp" = "deeppink", "Citrobacter freundii" = "blue2", "others"="grey40")) + labs(x = "Hospital", y = "Inc type") + theme_bw()
+blaIMP6_2 <- merge_IMP6_2022_1 + geom_scatterpie_legend(r = merge_IMP1_2022$value_1/5, x=72, y=2)
+blaIMP6_3 <- blaIMP6_2 + theme(panel.grid.major = element_line(colour="black", linetype="dashed", size=0.5))
+blaIMP6_4 <- blaIMP6_3 + theme(panel.grid.minor.y = element_blank()) + theme(panel.grid.minor.x = element_blank()) + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + theme(text = element_text(size = 12)) + theme(axis.title.x=element_text(size=20, lineheight=.9)) + theme(axis.title.y=element_text(size=20, lineheight=.9)) + theme(legend.title=element_blank(), axis.text=element_text(colour = "black"))
+blaIMP6_5 <- blaIMP6_4 + geom_point(size = 10) + scale_y_continuous(breaks=c(0, 1, 2, 3, 4), labels=c('IncN-FIB', 'IncN', 'IncHI2', 'IncFIA-FII-N', 'IncFIA-FIB-N')) + scale_x_continuous(breaks=c(30, 20, 34, 6, 29, 11, 32, 28, 18, 0, 23, 16, 13, 15, 44, 25, 53, 51, 10, 70, 27, 17, 8, 4, 21, 22, 59, 62, 67, 58, 55, 49, 48, 47, 45, 69, 68, 35, 64, 65, 43, 40, 39, 38, 63, 57, 1, 61, 60, 56, 50, 52, 14, 3, 66, 9, 5, 2, 19, 31, 12, 41, 37, 54, 26, 46, 24, 33, 7, 36, 42), labels=c('Aichi-C', 'Hyogo-A', 'Gifu-A', 'Fukuoka-D', 'Aichi-D', 'Ehime-A', 'Shizuoka-B', 'Aichi-F', 'Hyogo-C', 'Okinawa-A', 'Osaka-A', 'Hyogo-E', 'Okayama-C', 'Nara-A', 'Toky-S', 'Mie-A', 'Tokyo-I', 'Tokyo-K', 'Kochi-A', 'Yamagata-A', 'Aichi-G', 'Hyogo-D', 'Fukuoka-B', 'Fukuoka-F', 'Osaka-E', 'Osaka-B', 'Tokyo-B', 'Chiba-C', 'Tochigi-A', 'Tokyo-C', 'Tokyo-F', 'Tokyo-M', 'Tokyo-N', 'Tokyo-P', 'Tokyo-R', 'Yamagata-B', 'Ibaraki-A', 'Nagano-A', 'Saitama-D', 'Saitama-C', 'Kanagawa-A', 'Kanagawa-D', 'Kanagawa-E', 'Kanagawa-F', 'Chiba-A', 'Tokyo-D', 'Kumamoto-A', 'Chiba-D', 'Tokyo-A', 'Tokyo-E', 'Tokyo-L', 'Tokyo-J', 'Okayama-B', 'Fukuoka-G', 'Saitama-A', 'Fukuoka-A', 'Fukuoka-E', 'Saga-A', 'Hyogo-B', 'Aiichi-A', 'Tokushima-A', 'Kanagawa-C', 'Kanagawa-G', 'Tokyo-G', 'Aichi-H', 'Tokyo-Q', 'Kyoto-B', 'Shizuoka-A', 'Fukuoka-C', 'Kanazawa-A', 'Kanagawa-B'))
+plot(blaIMP6_5)
+```
+
+```{r}
+merge_NDM5_2022 <- read_csv("Fig.7_NDM5.csv")
+```
+
+```{r}
+merge_NDM5_2022_1 <- ggplot() + geom_scatterpie(aes(x=hospital_id_1, y=Y_axis_id_imp, r = value_1/5), data = merge_NDM5_2022, cols = colnames(merge_NDM5_2022[, 8:12]), alpha = 0.75) + scale_fill_manual(values = c("Klebsiella spp" = "green3", "Escherichia coli" = "darkorange1", "Enterobacter spp" = "deeppink", "Citrobacter freundii" = "blue2", "others"="grey40")) + labs(x = "Hospital", y = "Inc type") + theme_bw()
+blaNDM5_2 <- merge_NDM5_2022_1 + geom_scatterpie_legend(r = merge_IMP1_2022$value_1/5, x=72, y=2)
+blaNDM5_3 <- blaNDM5_2 + theme(panel.grid.major = element_line(colour="black", linetype="dashed", size=0.5))
+blaNDM5_4 <- blaNDM5_3 + theme(panel.grid.minor.y = element_blank()) + theme(panel.grid.minor.x = element_blank()) + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + theme(text = element_text(size = 12)) + theme(axis.title.x=element_text(size=20, lineheight=.9)) + theme(axis.title.y=element_text(size=20, lineheight=.9)) + theme(legend.title=element_blank(), axis.text=element_text(colour = "black"))
+blaNDM5_5 <- blaNDM5_4 + geom_point(size = 10) + scale_y_continuous(breaks=c(0, 1, 2, 3, 4, 5), labels=c('IncX3', 'IncN-R-X1', 'IncFII', 'IncFIB-FII', 'IncFIA-FIB-FII', 'IncFIA-FIB-FIC')) + scale_x_continuous(breaks=c(30, 20, 34, 6, 29, 11, 32, 28, 18, 0, 23, 16, 13, 15, 44, 25, 53, 51, 10, 70, 27, 17, 8, 4, 21, 22, 59, 62, 67, 58, 55, 49, 48, 47, 45, 69, 68, 35, 64, 65, 43, 40, 39, 38, 63, 57, 1, 61, 60, 56, 50, 52, 14, 3, 66, 9, 5, 2, 19, 31, 12, 41, 37, 54, 26, 46, 24, 33, 7, 36, 42), labels=c('Aichi-C', 'Hyogo-A', 'Gifu-A', 'Fukuoka-D', 'Aichi-D', 'Ehime-A', 'Shizuoka-B', 'Aichi-F', 'Hyogo-C', 'Okinawa-A', 'Osaka-A', 'Hyogo-E', 'Okayama-C', 'Nara-A', 'Toky-S', 'Mie-A', 'Tokyo-I', 'Tokyo-K', 'Kochi-A', 'Yamagata-A', 'Aichi-G', 'Hyogo-D', 'Fukuoka-B', 'Fukuoka-F', 'Osaka-E', 'Osaka-B', 'Tokyo-B', 'Chiba-C', 'Tochigi-A', 'Tokyo-C', 'Tokyo-F', 'Tokyo-M', 'Tokyo-N', 'Tokyo-P', 'Tokyo-R', 'Yamagata-B', 'Ibaraki-A', 'Nagano-A', 'Saitama-D', 'Saitama-C', 'Kanagawa-A', 'Kanagawa-D', 'Kanagawa-E', 'Kanagawa-F', 'Chiba-A', 'Tokyo-D', 'Kumamoto-A', 'Chiba-D', 'Tokyo-A', 'Tokyo-E', 'Tokyo-L', 'Tokyo-J', 'Okayama-B', 'Fukuoka-G', 'Saitama-A', 'Fukuoka-A', 'Fukuoka-E', 'Saga-A', 'Hyogo-B', 'Aiichi-A', 'Tokushima-A', 'Kanagawa-C', 'Kanagawa-G', 'Tokyo-G', 'Aichi-H', 'Tokyo-Q', 'Kyoto-B', 'Shizuoka-A', 'Fukuoka-C', 'Kanazawa-A', 'Kanagawa-B'))
+plot(blaNDM5_5)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r}
+g1 <- ggplotGrob(blaIMP1_5)
+g2 <- ggplotGrob(blaIMP6_5)
+g3 <- ggplotGrob(blaNDM5_5)
+g <- rbind(g1, g2, g3, size = "first")
+g$widths = grid::unit.pmax(g2$widths, g3$widths)
+plot(g)
+```
+

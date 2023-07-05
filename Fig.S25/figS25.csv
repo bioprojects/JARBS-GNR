@@ -1,0 +1,208 @@
+,Unnamed: 0,変換前ID,変換後ID,Conpleteness of CPase plasmid,Contig size (bp),Plasmid replicon,Y axis,Inc type,ANI_topHit,MLST_sp_scheme,Pi chart,遺伝子,MLST,施設コード,施設名,X axis (prefecture-hospital),X axis (region),Gene,Contig size (kbp)
+0,2,06003-19-0142,JBAGAAD-19-0142,⃝,45513.0,IncN_1,IncN,N,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1 ,23,6003,地方独立行政法人　山形県・酒田市病院機構　日本海総合病院,Yamagata-A,North,blaIMP-1,45.513
+1,3,06014-19-0007,JBAGABE-19-0007,⃝,50208.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,124,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,50.208
+2,4,06014-19-0008,JBAGABE-19-0008,⃝,50208.0,IncN_1,IncN,N,Escherichia coli,ecoli,Escherichia coli,blaIMP-1,131,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,50.208
+3,5,06014-19-0015,JBAGABE-19-0015,⃝,268211.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,Mixta calida,n.d.,others,blaIMP-1,n.d.,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,268.211
+4,8,06014-19-0080,JBAGABE-19-0080,⃝,51813.0,IncN_1,IncN,N,Enterobacter ludwigii,ecloacae,Enterobacter spp,blaIMP-1 ,20,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,51.813
+5,9,06014-19-0081,JBAGABE-19-0081,⃝,48377.0,IncN_1,IncN,N,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1 ,317,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,48.377
+6,10,06014-19-0098,JBAGABE-19-0098,⃝,326632.0,"IncHI2A_1,IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,742,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,326.632
+7,14,06014-19-0111,JBAGABE-19-0111,⃝,50206.0,IncN_1,IncN,N,Klebsiella variicola,kpneumoniae,Klebsiella spp,blaIMP-1 ,415,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,50.206
+8,15,06014-19-0119,JBAGABE-19-0119,⃝,55204.0,IncN_1,IncN,N,Klebsiella michiganensis,koxytoca,Klebsiella spp,blaIMP-1,82,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,55.204
+9,16,06014-19-0120,JBAGABE-19-0120,⃝,299497.0,"IncHI2A_1, IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,742,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,299.497
+10,17,06014-19-0121,JBAGABE-19-0121,⃝,50208.0,IncN_1,IncN,N,Shigella boydii,ecoli,Escherichia coli,blaIMP-1 ,70,6014,山形大学医学部附属病院,Yamagata-B,North,blaIMP-1,50.208
+11,18,08003-19-0002,JBAIAAD-19-0002,⃝,98919.0,IncM1,IncM1,M1,Enterobacter asburiae,ecloacae,Enterobacter spp,blaIMP-1,252,8003,株式会社　日立製作所　日立総合病院,Ibaraki-A,East,blaIMP-1,98.919
+12,19,08003-19-0071,JBAIAAD-19-0071,⃝,377452.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-1,252,8003,株式会社　日立製作所　日立総合病院,Ibaraki-A,East,blaIMP-1,377.452
+13,21,09009-19-0001,JBAJAAJ-19-0001,⃝,360298.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,175,9009,栃木県済生会宇都宮病院,Tochigi-A,East,blaIMP-1,360.298
+14,23,11001-19-0053,JBBBAAB-19-0053,⃝,124335.0,"IncFIB(pB171)_1,IncFII_1",IncFIB-FII,FIB-FII,,ecoli,Escherichia coli,blaNDM-5,2659,11001,防衛医科大学校病院,Saitama-A,East,blaNDM-5,124.335
+15,24,11001-19-0138,JBBBAAB-19-0138,⃝,274292.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-6,133,11001,防衛医科大学校病院,Saitama-A,East,blaIMP-6,274.292
+16,30,11008-19-0002,JBBBAAI-19-0002,⃝,335956.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,Enterobacter asburiae,ecloacae,Enterobacter spp,blaIMP-1,252,11008,越谷市立病院,Saitama-C,East,blaIMP-1,335.956
+17,31,11045-19-0073,JBBBAEF-19-0073,⃝,66160.0,IncP1_3 (98.52),others,others,,ecloacae,Enterobacter spp,blaIMP-1,190,11045,深谷赤十字病院,Saitama-D,East,blaIMP-1,66.16
+18,33,11045-19-0111,JBBBAEF-19-0111,⃝,333310.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,22,11045,深谷赤十字病院,Saitama-D,East,blaIMP-1,333.31
+19,34,12006-19-0001,JBBCAAG-19-0001,⃝,359986.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,90,12006,松戸市立総合医療センター,Chiba-A,East,blaIMP-1,359.986
+20,38,12006-19-0007,JBBCAAG-19-0007,⃝,189473.0,"IncFII(pECLA)_1_pECLA,IncFIB(pECLA)_1_pECLA,IncFII(pECLA)_1_pECLA",IncFII(pECLA),FII(pECLA),Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,742,12006,松戸市立総合医療センター,Chiba-A,East,blaIMP-1,189.473
+21,40,12032-19-0142,JBBCADC-19-0142,⃝,316701.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,742,12032,日本医科大学千葉北総病院,Chiba-C,East,blaIMP-1,316.701
+22,42,12046-19-0003,JBBCAEG-19-0003,⃝,174456.0,IncFII(pECLA)_1_pECLA *3,IncFII(pECLA),FII(pECLA),,ecloacae,Enterobacter spp,blaIMP-1,742,12046,千葉市立青葉病院,Chiba-D,East,blaIMP-1,174.456
+23,43,13001-19-0007,JBBDAAB-19-0007,⃝,371340.0,"IncHI2A_1, IncHI2_1",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-1,78,13001,東京都健康長寿医療センター,Tokyo-A,East,blaIMP-1,371.34
+24,44,13001-19-0011,JBBDAAB-19-0011,⃝,295301.0,"IncHI2A_1, IncHI2_1",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-6,66,13001,東京都健康長寿医療センター,Tokyo-A,East,blaIMP-6,295.301
+25,46,13001-19-0067,JBBDAAB-19-0067,⃝,334054.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,13001,東京都健康長寿医療センター,Tokyo-A,East,blaIMP-1,334.054
+26,47,13001-19-0170,JBBDAAB-19-0170,⃝,214200.0,IncFII(pECLA)_1_pECLA *3,IncFII(pECLA),FII(pECLA),,ecloacae,Enterobacter spp,blaIMP-1,742,13001,東京都健康長寿医療センター,Tokyo-A,East,blaIMP-1,214.2
+27,49,13004-19-0031,JBBDAAE-19-0031,⃝,368517.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,,koxytoca,Klebsiella spp,blaIMP-1,88,13004,帝京大学医学部附属病院,Tokyo-B,East,blaIMP-1,368.517
+28,53,13005-19-0002,JBBDAAF-19-0002,⃝,76661.0,IncM1_1,IncM1,M1,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1,3172,13005,東邦大学医療センター大森病院,Tokyo-C,East,blaIMP-1,76.661
+29,56,13005-19-0006,JBBDAAF-19-0006,⃝,85471.0,IncM1_1,IncM1,M1,Klebsiella pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1,12,13005,東邦大学医療センター大森病院,Tokyo-C,East,blaIMP-1,85.471
+30,62,13005-19-0018,JBBDAAF-19-0018,⃝,372009.0,"IncHI2A_1, IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,13005,東邦大学医療センター大森病院,Tokyo-C,East,blaIMP-1,372.009
+31,63,13005-19-0020,JBBDAAF-19-0020,⃝,76661.0,IncM1_1,IncM1,M1,Klebsiella oxytoca,koxytoca,Klebsiella spp,blaIMP-1,n.d.,13005,東邦大学医療センター大森病院,Tokyo-C,East,blaIMP-1,76.661
+32,64,13005-19-0029,JBBDAAF-19-0029,⃝,372071.0,"IncHI2A_1, IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,13005,東邦大学医療センター大森病院,Tokyo-C,East,blaIMP-1,372.071
+33,65,13005-19-0040,JBBDAAF-19-0040,⃝,67431.0,IncN_1,IncN,N,Enterobacter hormaechei subsp. hoffmannii,ecloacae,Enterobacter spp,blaIMP-1,78,13005,東邦大学医療センター大森病院,Tokyo-C,East,blaIMP-1,67.431
+34,67,13005-19-0060,JBBDAAF-19-0060,⃝,283440.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Klebsiella oxytoca,koxytoca,Klebsiella spp,blaIMP-1,2,13005,東邦大学医療センター大森病院,Tokyo-C,East,blaIMP-1,283.44
+35,73,13009-19-0051,JBBDAAJ-19-0051,⃝,321010.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,116,13009,NTT東日本関東病院,Tokyo-D,East,blaIMP-1,321.01
+36,74,13009-19-0055,JBBDAAJ-19-0055,⃝,330864.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,742,13009,NTT東日本関東病院,Tokyo-D,East,blaIMP-1,330.864
+37,75,13009-19-0055,JBBDAAJ-19-0055,⃝,214195.0,"IncFII(pECLA)_1 (2)
+IncFIB(pECLA)_1",IncFII(pECLA),FII(pECLA),Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,742,13009,NTT東日本関東病院,Tokyo-D,East,blaIMP-1,214.195
+38,76,13010-19-0001,JBBDABA-19-0001,⃝,306625.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,Metakosakonia massiliensis,ecloacae,Enterobacter spp,blaIMP-1,78,13010,国立研究開発法人　国立国際医療研究センター病院,Tokyo-E,East,blaIMP-1,306.625
+39,78,13010-19-0004,JBBDABA-19-0004,⃝,322604.0,"IncHI2A_1, IncHI2_1",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-1,175,13010,国立研究開発法人　国立国際医療研究センター病院,Tokyo-E,East,blaIMP-1,322.604
+40,81,13010-19-0009,JBBDABA-19-0009,⃝,83464.0,IncM1_1,IncM1,M1,,cfreundii,Citrobacter freundii,blaIMP-1,62,13010,国立研究開発法人　国立国際医療研究センター病院,Tokyo-E,East,blaIMP-1,83.464
+41,83,13010-19-0065,JBBDABA-19-0065,⃝,93546.0,IncFII_1,IncFII,FII,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,648,13010,国立研究開発法人　国立国際医療研究センター病院,Tokyo-E,East,blaNDM-5,93.546
+42,84,13014-19-0091,JBBDABE-19-0091,⃝,280639.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-6,133,13014,公立昭和病院,Tokyo-F,East,blaIMP-6,280.639
+43,85,13024-19-0026,JBBDACE-19-0026,⃝,327701.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,146,13024,東京医科大学八王子医療センター,Tokyo-G,East,blaIMP-1,327.701
+44,86,13024-19-0030,JBBDACE-19-0030,⃝,129677.0,"IncFIB(AP001918)_1,IncFIC(FII)_1,IncFIA_1",IncFIA-FIB-FIC,FIA-FIB-FIC,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,405,13024,東京医科大学八王子医療センター,Tokyo-G,East,blaNDM-5,129.677
+45,90,13028-19-0018,JBBDACI-19-0018,⃝,52953.0,IncN_1,IncN,N,,kpneumoniae,Klebsiella spp,blaIMP-6 ,37,13028,順天堂大学医学部附属順天堂医院,Tokyo-I,East,blaIMP-6,52.953
+46,92,13037-19-0001,JBBDADH-19-0001,⃝,132669.0,"IncFIB(pQil)_1,IncFII(pKP91)_1",IncFIB-FII,FIB-FII,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaNDM-5,231,13037,東京医科大学病院,Tokyo-J,East,blaNDM-5,132.669
+47,94,13037-19-0027,JBBDADH-19-0027,⃝,394039.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,13037,東京医科大学病院,Tokyo-J,East,blaIMP-1,394.039
+48,95,13044-19-0024,JBBDAEE-19-0024,⃝,52953.0,IncN_1,IncN,N,Klebsiella pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-6 ,37,13044,東京逓信病院 ,Tokyo-K,East,blaIMP-6,52.953
+49,97,13056-19-0030,JBBDAFG-19-0030,⃝,99044.0,IncM1,IncM1,M1,Enterobacter chengduensis,ecloacae,Enterobacter spp,blaIMP-1,414,13056,聖路加国際病院,Tokyo-L,East,blaIMP-1,99.044
+50,98,13056-19-0049,JBBDAFG-19-0049,⃝,94175.0,IncM1,IncM1,M1,Klebsiella pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1 ,*12,13056,聖路加国際病院,Tokyo-L,East,blaIMP-1,94.175
+51,99,13056-19-0081,JBBDAFG-19-0081,⃝,81123.0,IncM1,IncM1,M1,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1,15,13056,聖路加国際病院,Tokyo-L,East,blaIMP-1,81.123
+52,100,13056-19-0101,JBBDAFG-19-0101,⃝,122116.0,IncFII_1_pKP91,IncFII,FII,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1 ,37,13056,聖路加国際病院,Tokyo-L,East,blaIMP-1,122.116
+53,101,13056-19-0102,JBBDAFG-19-0102,⃝,59101.0,IncN_1,IncN,N,Escherichia coli,ecoli,Escherichia coli,blaIMP-1,59,13056,聖路加国際病院,Tokyo-L,East,blaIMP-1,59.101
+54,102,13056-19-0138,JBBDAFG-19-0138,⃝,81133.0,IncM1,IncM1,M1,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1,15,13056,聖路加国際病院,Tokyo-L,East,blaIMP-1,81.133
+55,103,13056-19-0159,JBBDAFG-19-0159,⃝,81133.0,IncM1_1,IncM1,M1,Klebsiella pneumoniae subsp. ozaenae,kpneumoniae,Klebsiella spp,blaIMP-1,15,13056,聖路加国際病院,Tokyo-L,East,blaIMP-1,81.133
+56,108,13056-19-0261,JBBDAFG-19-0261,⃝,76660.0,IncM1_1,IncM1,M1,Klebsiella pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1,876,13056,聖路加国際病院,Tokyo-L,East,blaIMP-1,76.66
+57,117,13057-19-0097,JBBDAFH-19-0097,⃝,360857.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-1,204,13057,東京都立多摩総合医療センター,Tokyo-M,East,blaIMP-1,360.857
+58,119,13058-19-0029,JBBDAFI-19-0029,⃝,387309.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-1,78,13058,社会福祉法人三井記念病院,Tokyo-N,East,blaIMP-1,387.309
+59,122,13065-19-0019,JBBDAGF-19-0019,⃝,46161.0,IncX3_1,IncX3,X3,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,617,13065,国立がん研究センター中央病院,Tokyo-P,East,blaNDM-5,46.161
+60,123,13065-19-0034,JBBDAGF-19-0034,⃝,357768.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,13065,国立がん研究センター中央病院,Tokyo-P,East,blaIMP-1,357.768
+61,126,13067-19-0013,JBBDAGH-19-0013,⃝,137629.0,"IncFIB(AP001918)_1,   IncFIC(FII)_1, IncFIA_1",IncFIA-FIB-FIC,FIA-FIB-FIC,,ecoli,Escherichia coli,blaNDM-5,167,13067,東京都立大塚病院,Tokyo-Q,East,blaNDM-5,137.629
+62,127,13090-19-0064,JBBDAJA-19-0064,⃝,395479.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. hoffmannii,ecloacae,Enterobacter spp,blaIMP-1,78,13090,順天堂大学医学部附属練馬病院,Tokyo-R,East,blaIMP-1,395.479
+63,129,13091-19-0014,JBBDAJB-19-0014,⃝,36273.0,IncN_1,IncN,N,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,36.273
+64,130,13091-19-0015,JBBDAJB-19-0015,⃝,63840.0,IncN_1,IncN,N,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,63.84
+65,131,13091-19-0020,JBBDAJB-19-0020,⃝,63465.0,IncN_1,IncN,N,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,63.465
+66,132,13091-19-0023,JBBDAJB-19-0023,⃝,36277.0,IncN_1,IncN,N,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,36.277
+67,134,13091-19-0030,JBBDAJB-19-0030,⃝,51233.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,62,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,51.233
+68,135,13091-19-0031,JBBDAJB-19-0031,⃝,51611.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1 ,62,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,51.611
+69,136,13091-19-0032,JBBDAJB-19-0032,⃝,165834.0,"IncN_1,IncFIA(HI1)_1_HI1,RepA_1_pKPC-CAV1321",IncN-IncFIA,N-FIA,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,62,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,165.834
+70,137,13091-19-0033,JBBDAJB-19-0033,⃝,51604.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,62,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,51.604
+71,138,13091-19-0034,JBBDAJB-19-0034,⃝,70956.0,IncN_1,IncN,N,Klebsiella michiganensis,koxytoca,Klebsiella spp,blaIMP-1,85,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,70.956
+72,139,13091-19-0035,JBBDAJB-19-0035,⃝,51609.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,62,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,51.609
+73,140,13091-19-0036,JBBDAJB-19-0036,⃝,51537.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,62,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,51.537
+74,141,13091-19-0038,JBBDAJB-19-0038,⃝,51603.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,62,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,51.603
+75,142,13091-19-0039,JBBDAJB-19-0039,⃝,47476.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,62,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,47.476
+76,143,13091-19-0040,JBBDAJB-19-0040,⃝,51611.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,62,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,51.611
+77,144,13091-19-0064,JBBDAJB-19-0064,⃝,50906.0,IncN_1,IncN,N,,koxytoca,Klebsiella spp,blaIMP-1,50,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,50.906
+78,145,13091-19-0065,JBBDAJB-19-0065,⃝,50906.0,IncN_1,IncN,N,Klebsiella michiganensis,koxytoca,Klebsiella spp,blaIMP-1 ,50,13091,東京都立小児総合医療センター,Toky-S,East,blaIMP-1,50.906
+79,147,14009-19-0007,JBBEAAJ-19-0007,⃝,316258.0,"IncHI2A_1, IncHI2_1",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-1,32,14009,横浜市立みなと赤十字病院,Kanagawa-A,East,blaIMP-1,316.258
+80,151,14010-19-0004,JBBEABA-19-0004,〇,367613.0,"IncHI2A_1, IncHI2_1",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-1,24,14010,一般財団法人神奈川県警友会　けいゆう病院,Kanagawa-B,East,blaIMP-1,367.613
+81,152,14010-19-0021,JBBEABA-19-0021,〇,192763.0,IncC_1,IncC,C,,ecloacae,Enterobacter spp,blaIMP-1,127,14010,一般財団法人神奈川県警友会　けいゆう病院,Kanagawa-B,East,blaIMP-1,192.763
+82,153,14010-19-0025,JBBEABA-19-0025,〇,392406.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,,ecloacae,Enterobacter spp,blaIMP-1,133,14010,一般財団法人神奈川県警友会　けいゆう病院,Kanagawa-B,East,blaIMP-1,392.406
+83,154,14016-19-0001,JBBEABG-19-0001,〇,331385.0,"IncHI2A_1,IncHI2_1",IncHI2,HI2,Enterobacter kobei,ecloacae,Enterobacter spp,blaIMP-1,32,14016,東海大学医学部付属病院,Kanagawa-C,East,blaIMP-1,331.385
+84,155,14016-19-0008,JBBEABG-19-0008,⃝,105765.0,"IncR_1
+IncN_1
+IncX1_1",IncN-R-X1,N-R-X1,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,48,14016,東海大学医学部付属病院,Kanagawa-C,East,blaNDM-5,105.765
+85,157,14016-19-0012,JBBEABG-19-0012,⃝,86585.0,"IncR_1
+IncX1_1
+IncN_1",IncN-R-X1,N-R-X1,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,48,14016,東海大学医学部付属病院,Kanagawa-C,East,blaNDM-5,86.585
+86,158,14016-19-0014,JBBEABG-19-0014,⃝,147915.0,"IncFIB(AP001918)_1
+IncFII_1
+IncFIA_1",IncFIA-FIB-FII,FIA-FIB-FII,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,167,14016,東海大学医学部付属病院,Kanagawa-C,East,blaNDM-5,147.915
+87,161,14016-19-0022,JBBEABG-19-0022,⃝,296549.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Escherichia coli,ecoli,Escherichia coli,blaIMP-1,131,14016,東海大学医学部付属病院,Kanagawa-C,East,blaIMP-1,296.549
+88,163,14016-19-0024,JBBEABG-19-0024,⃝,46161.0,IncX3_1,IncX3,X3,Klebsiella pneumoniae subsp. ozaenae,kpneumoniae,Klebsiella spp,blaNDM-5,24,14016,東海大学医学部付属病院,Kanagawa-C,East,blaNDM-5,46.161
+89,164,14016-19-0025,JBBEABG-19-0025,⃝,46161.0,IncX3_1,IncX3,X3,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,101,14016,東海大学医学部付属病院,Kanagawa-C,East,blaNDM-5,46.161
+90,165,14016-19-0026,JBBEABG-19-0026,⃝,217275.0,"IncHI2A_1,IncHI2_1",IncHI2,HI2,Klebsiella oxytoca,koxytoca,Klebsiella spp,blaIMP-1,21,14016,東海大学医学部付属病院,Kanagawa-C,East,blaIMP-1,217.275
+91,167,14016-19-0028,JBBEABG-19-0028,⃝,321769.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,14016,東海大学医学部付属病院,Kanagawa-C,East,blaIMP-1,321.769
+92,168,14016-19-0038,JBBEABG-19-0038,⃝,296549.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Escherichia coli,ecoli,Escherichia coli,blaIMP-1,131,14016,東海大学医学部付属病院,Kanagawa-C,East,blaIMP-1,296.549
+93,170,14030-19-0164,JBBEADA-19-0164,⃝,290663.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Citrobacter portucalensis,cfreundii,Citrobacter freundii,blaIMP-1,301,14030,国家公務員共済組合連合会　横須賀共済病院,Kanagawa-D,East,blaIMP-1,290.663
+94,173,14034-19-0280,JBBEADE-19-0280,⃝,297302.0,IncHI2A_1 IncHI2_1,IncHI2,HI2,Shigella boydii,ecoli,Escherichia coli,"blaIMP-1, blaNDM-1",38,14034,横浜南共済病院,Kanagawa-E,East,blaIMP-1,297.302
+95,174,14035-19-0334,JBBEADF-19-0334,⃝,358826.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter cloacae,ecloacae,Enterobacter spp,blaIMP-1,837,14035,済生会横浜市南部病院,Kanagawa-F,East,blaIMP-1,358.826
+96,175,14038-19-0002,JBBEADI-19-0002,⃝,102599.0,"IncFIB(AP001918)_1, IncFII(pAMA1167-NDM-5)_1, IncFIA_1",IncFIA-FIB-FII,FIA-FIB-FII,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,410,14038,独立行政法人労働者健康安全機構　横浜労災病院,Kanagawa-G,East,blaNDM-5,102.599
+97,177,17001-19-0007,JBBHAAB-19-0007,⃝,134855.0,IncC_1,IncC,C,Klebsiella variicola,kpneumoniae,Klebsiella spp,blaIMP-1,1615,17001,金沢大学附属病院,Kanazawa-A,Middle,blaIMP-1,134.855
+98,179,20008-19-0110,JBCAAAI-19-0110,⃝,331197.0,"IncHI2A_1
+IncHI2_1",IncHI2,HI2,Enterobacter kobei,ecloacae,Enterobacter spp,blaIMP-1,563,20008,国立大学法人信州大学医学部附属病院,Nagano-A,Middle,blaIMP-1,331.197
+99,180,21002-19-0075,JBCBAAC-19-0075,⃝,290547.0,"IncHI1A(NDM-CIT)_1,IncHI1B(pNDM-CIT)_1",others,others,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,62,21002,岐阜市民病院,Gifu-A,Middle,blaIMP-1,290.547
+100,182,22001-19-0087,JBCCAAB-19-0087,⃝,109588.0,"IncFII(pECLA)_1,IncR_1",IncFII(pECLA),FII(pECLA),Enterobacter asburiae,ecloacae,Enterobacter spp,blaIMP-1,484,22001,浜松医療センター,Shizuoka-A,Middle,blaIMP-1,109.588
+101,183,22001-19-0090,JBCCAAB-19-0090,⃝,150168.0,IncFIA(HI1)_1_HI1,IncFIA,FIA,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,98,22001,浜松医療センター,Shizuoka-A,Middle,blaIMP-1,150.168
+102,184,22001-19-0090,JBCCAAB-19-0090,⃝,98024.0,"IncFIB(K)_1_Kpn3,IncFII(p14)_1_p14",IncFIB-FII,FIB-FII,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,98,22001,浜松医療センター,Shizuoka-A,Middle,blaIMP-1,98.024
+103,185,22011-19-0049,JBCCABB-19-0049,⃝,86161.0,,ND,ND,,kpneumoniae,Klebsiella spp,blaIMP-1,461,22011,社会福祉法人聖隷福祉事業団総合病院聖隷浜松病院,Shizuoka-B,Middle,blaIMP-1,86.161
+104,186,23001-19-0006,JBCDAAB-19-0006,⃝,279634.0,"IncFIB(K)_1,IncN_1, IncFII(pKP91)_1",IncN,N,,kpneumoniae,Klebsiella spp,blaIMP-1,716,23001,名古屋大学医学部附属病院,Aiichi-A,Middle,blaIMP-1,279.634
+105,188,23001-19-0064,JBCDAAB-19-0064,⃝,125014.0,"IncFIB(AP001918)_1,IncFIA_1,IncN_1",IncFIA-FIB-N,FIA-FIB-N,,ecoli,Escherichia coli,blaIMP-6 ,131,23001,名古屋大学医学部附属病院,Aiichi-A,Middle,blaIMP-6,125.014
+106,190,23001-19-0172,JBCDAAB-19-0172,⃝,25884.0,untypeable,ND,ND,,cfreundii,Citrobacter freundii,blaIMP-1,481,23001,名古屋大学医学部附属病院,Aiichi-A,Middle,blaIMP-1,25.884
+107,192,23010-19-0023,JBCDABA-19-0023,⃝,147954.0,IncT_1,others,others,Providencia rettgeri,n.d.,others,blaIMP-1 ,n.d.,23010,独立行政法人労働者健康福祉機構　中部労災病院,Aichi-C,Middle,blaIMP-1,147.954
+108,194,23017-19-0007,JBCDABH-19-0007,⃝,32105.0,ND,ND,ND,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,112,23017,小牧市民病院,Aichi-D,Middle,blaIMP-1,32.105
+109,196,23029-19-0182,JBCDACJ-19-0182,⃝,80138.0,,ND,ND,Klebsiella grimontii,koxytoca,Klebsiella spp,blaIMP-1,215,23029,豊橋市民病院,Aichi-F,Middle,blaIMP-1,80.138
+110,199,23034-19-0014,JBCDADE-19-0014,⃝,53613.0,IncN_1,IncN,N,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-6 ,37,23034,愛知県厚生農業協同組合連合会海南病院,Aichi-G,Middle,blaIMP-6,53.613
+111,200,23059-19-0095,JBCDAFJ-19-0095,⃝,213507.0,"IncFIC(FII)_1,IncFIA_1,IncFIB(AP001918)_1",IncFIA-FIB-FIC,FIA-FIB-FIC,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,410,23059,春日井市民病院,Aichi-H,Middle,blaNDM-5,213.507
+112,201,24022-19-0030,JBCEACC-19-0030,⃝,52449.0,IncN_1,IncN,N,Enterobacter asburiae,ecloacae,Enterobacter spp,blaIMP-6 ,252,24022,地方独立行政法人三重県立総合医療センター ,Mie-A,Middle,blaIMP-6,52.449
+113,204,26011-19-0045,JBCGABB-19-0045,⃝,119361.0,"IncFIB(AP001918)_1, IncFIC(FII)_1, IncFIA_1",IncFIA-FIB-FIC,FIA-FIB-FIC,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,156,26011,社会福祉法人京都社会事業財団京都桂病院,Kyoto-B,West,blaNDM-5,119.361
+114,216,27001-19-0056,JBCHAAB-19-0056,⃝,52301.0,IncN_1,IncN,N,Shigella boydii,ecoli,Escherichia coli,blaIMP-6 ,3570,27001,大阪大学医学部附属病院,Osaka-A,West,blaIMP-6,52.301
+115,219,27026-19-0271,JBCHACG-19-0271,⃝,97227.0,IncM1_1,IncM1,M1,,kaerogenes,Klebsiella spp,blaIMP-1,190,27026,大阪急性期・総合医療センター,Osaka-B,West,blaIMP-1,97.227
+116,220,27026-19-0326,JBCHACG-19-0326,⃝,50564.0,IncN_1,IncN,N,,kpneumoniae,Klebsiella spp,blaIMP-1,307,27026,大阪急性期・総合医療センター,Osaka-B,West,blaIMP-1,50.564
+117,221,27026-19-0426,JBCHACG-19-0426,⃝,225562.0,"IncN_1,IncFIB(K)_1_Kpn3,IncFIB(pQil)_1_pQil",IncN-FIB,N-FIB,Klebsiella pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-6 ,307,27026,大阪急性期・総合医療センター,Osaka-B,West,blaIMP-6,225.562
+118,223,27026-19-0462,JBCHACG-19-0462,⃝,50554.0,IncN_1,IncN,N,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-6 ,307,27026,大阪急性期・総合医療センター,Osaka-B,West,blaIMP-6,50.554
+119,227,27052-19-0001,JBCHAFC-19-0001,⃝,91016.0,IncM2,IncM2,M2,Shigella boydii,ecoli,Escherichia coli,blaIMP-1,8324,27052,大阪府立病院機構大阪母子医療センター,Osaka-E,West,blaIMP-1,91.016
+120,228,27052-19-0005,JBCHAFC-19-0005,⃝,91016.0,IncM2,IncM2,M2,Klebsiella variicola,kpneumoniae,Klebsiella spp,blaIMP-1,n.d.,27052,大阪府立病院機構大阪母子医療センター,Osaka-E,West,blaIMP-1,91.016
+121,229,27052-19-0006,JBCHAFC-19-0006,⃝,91016.0,IncM2,IncM2,M2,Shigella boydii,ecoli,Escherichia coli,blaIMP-1,297,27052,大阪府立病院機構大阪母子医療センター,Osaka-E,West,blaIMP-1,91.016
+122,230,27052-19-0010,JBCHAFC-19-0010,⃝,91016.0,IncM2,IncM2,M2,Shigella boydii,ecoli,Escherichia coli,blaIMP-1,297,27052,大阪府立病院機構大阪母子医療センター,Osaka-E,West,blaIMP-1,91.016
+123,231,27052-19-0013,JBCHAFC-19-0013,⃝,76745.0,untypeable,ND,ND,Klebsiella michiganensis,koxytoca,Klebsiella spp,blaIMP-1,43,27052,大阪府立病院機構大阪母子医療センター,Osaka-E,West,blaIMP-1,76.745
+124,234,28001-19-0172,JBCIAAB-19-0172,⃝,77946.0,IncL_1,others,others,Enterobacter hormaechei subsp. hoffmannii,ecloacae,Enterobacter spp,blaIMP-1,78,28001,神戸大学医学部附属病院,Hyogo-A,West,blaIMP-1,77.946
+125,236,28007-19-0097,JBCIAAH-19-0097,⃝,52003.0,IncN_1,IncN,N,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-6 ,225,28007,兵庫県立尼崎総合医療センター,Hyogo-B,West,blaIMP-6,52.003
+126,237,28007-19-0136,JBCIAAH-19-0136,⃝,139295.0,"IncN_1,IncFII(pRSB107)_1_pRSB107,IncFIA_1",IncFIA-FII-N,FIA-FII-N,Escherichia coli,ecoli,Escherichia coli,blaIMP-6 ,131,28007,兵庫県立尼崎総合医療センター,Hyogo-B,West,blaIMP-6,139.295
+127,238,28007-19-0233,JBCIAAH-19-0233,⃝,50451.0,IncN_1,IncN,N,Klebsiella pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-6 ,105,28007,兵庫県立尼崎総合医療センター,Hyogo-B,West,blaIMP-6,50.451
+128,240,28008-19-0068,JBCIAAI-19-0068,⃝,17067.0,IncX3_1,IncX3,X3,,ecoli,Escherichia coli,blaNDM-5,1193,28008,地方独立行政法人　神戸市民病院機構　神戸市立西神戸医療センター,Hyogo-C,West,blaNDM-5,17.067
+129,241,28020-19-0215,JBCIACA-19-0215,⃝,47964.0,IncN_1,IncN,N,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-6 ,23,28020,兵庫医科大学病院,Hyogo-D,West,blaIMP-6,47.964
+130,243,28020-19-0354,JBCIACA-19-0354,⃝,53586.0,IncN_1,IncN,N,Klebsiella pneumoniae subsp. ozaenae,kpneumoniae,Klebsiella spp,blaIMP-6 ,14,28020,兵庫医科大学病院,Hyogo-D,West,blaIMP-6,53.586
+131,244,28020-19-0363,JBCIACA-19-0363,⃝,53584.0,IncN_1,IncN,N,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-6 ,*215,28020,兵庫医科大学病院,Hyogo-D,West,blaIMP-6,53.584
+132,245,28020-19-0486,JBCIACA-19-0486,⃝,53586.0,IncN_1,IncN,N,,kpneumoniae,Klebsiella spp,blaIMP-1,14,28020,兵庫医科大学病院,Hyogo-D,West,blaIMP-1,53.586
+133,248,28024-19-0140,JBCIACE-19-0140,⃝,53666.0,IncN_1,IncN,N,Escherichia coli,ecoli,Escherichia coli,blaIMP-6 ,131,28024,独立行政法人　労働者健康安全機構　関西労災病院,Hyogo-E,West,blaIMP-6,53.666
+134,249,28024-19-0271,JBCIACE-19-0271,⃝,52413.0,IncN_1,IncN,N,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-6 ,2384,28024,独立行政法人　労働者健康安全機構　関西労災病院,Hyogo-E,West,blaIMP-6,52.413
+135,251,29001-19-0005,JBCJAAB-19-0005,⃝,52338.0,IncN_1,IncN,N,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-6 ,268,29001,奈良県立医科大学附属病院,Nara-A,West,blaIMP-6,52.338
+136,259,33011-19-0101,JBDDABB-19-0101,⃝,193625.0,"IncFIB(K)_1,IncFII(pKP91)_1 /-",IncFIB-FII,FIB-FII,,kpneumoniae,Klebsiella spp,blaIMP-1,12,33011,津山中央病院,Okayama-B,West,blaIMP-1,193.625
+137,262,33013-19-0067,JBDDABD-19-0067,⃝,58164.0,IncN_1,IncN,N,Klebsiella michiganensis,koxytoca,Klebsiella spp,blaIMP-6 ,83,33013,総合病院岡山赤十字病院,Okayama-C,West,blaIMP-6,58.164
+138,263,33013-19-0095,JBDDABD-19-0095,⃝,60623.0,IncN_1,IncN,N,Klebsiella michiganensis,koxytoca,Klebsiella spp,blaIMP-6 ,83,33013,総合病院岡山赤十字病院,Okayama-C,West,blaIMP-6,60.623
+139,265,36001-19-0018,JBDGAAB-19-0018,⃝,101269.0,"IncFIB(AP001918)_1,IncFII(pAMA1167-NDM-5)_1_pAMA1167-NDM-5,IncFIA_1",IncFIA-FIB-FII,FIA-FIB-FII,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,405,36001,徳島大学病院,Tokushima-A,West,blaNDM-5,101.269
+140,266,36001-19-0019,JBDGAAB-19-0019,⃝,101266.0,"IncFIB(AP001918)_1,IncFII(pAMA1167-NDM-5)_1,IncFIA_1",IncFIA-FIB-FII,FIA-FIB-FII,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,405,36001,徳島大学病院,Tokushima-A,West,blaNDM-5,101.266
+141,267,36001-19-0029,JBDGAAB-19-0029,⃝,118860.0,"IncFIB(AP001918)_1,IncFIA_1,IncFII(pAMA1167-NDM-5)_1_pAMA1167-NDM-5",IncFIA-FIB-FII,FIA-FIB-FII,Shigella boydii,ecoli,Escherichia coli,blaNDM-5,405,36001,徳島大学病院,Tokushima-A,West,blaNDM-5,118.86
+142,268,38001-19-0003,JBDIAAB-19-0003,⃝,41676.0,untypeable,ND,ND,Citrobacter portucalensis,cfreundii,others,blaIMP-1,9,38001,愛媛大学医学部附属病院,Ehime-A,West,blaIMP-1,41.676
+143,270,39004-19-0069,JBDJAAE-19-0069,⃝,52448.0,IncN_1,IncN,N,Enterobacter hormaechei subsp. hoffmannii,ecloacae,Enterobacter spp,blaIMP-6 ,78,39004,社会医療法人近森会近森病院,Kochi-A,West,blaIMP-6,52.448
+144,275,40003-19-0046,JBEAAAD-19-0046,⃝,86401.0,IncM2,IncM2,M2,Serratia marcescens,n.d.,others,blaIMP-1,n.d.,40003,医療法人徳洲会福岡徳洲会病院,Fukuoka-A,Southwest,blaIMP-1,86.401
+145,276,40003-19-0047,JBEAAAD-19-0047,⃝,368949.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,40003,医療法人徳洲会福岡徳洲会病院,Fukuoka-A,Southwest,blaIMP-1,368.949
+146,277,40003-19-0096,JBEAAAD-19-0096,⃝,72164.0,"IncR_1,IncFIA(HI1)_1_HI1",IncFIA-R,FIA-R,,ecloacae,Enterobacter spp,blaIMP-1,62,40003,医療法人徳洲会福岡徳洲会病院,Fukuoka-A,Southwest,blaIMP-1,72.164
+147,278,40008-19-0004,JBEAAAI-19-0004,⃝,91016.0,IncM2,IncM2,M2,,n.d.,others,blaIMP-1,n.d.,40008,久留米大学病院,Fukuoka-B,Southwest,blaIMP-1,91.016
+148,279,40008-19-0005,JBEAAAI-19-0005,⃝,92530.0,IncM2_1  ,IncM2,M2,,cfreundii,Citrobacter freundii,blaIMP-1,125,40008,久留米大学病院,Fukuoka-B,Southwest,blaIMP-1,92.53
+149,280,40008-19-0006,JBEAAAI-19-0006,⃝,154731.0,"IncFIB(pQil)_1_pQil,IncFII(Yp)_1_Yersenia",others,others,,kpneumoniae,Klebsiella spp,blaIMP-1,12,40008,久留米大学病院,Fukuoka-B,Southwest,blaIMP-1,154.731
+150,281,40008-19-0007,JBEAAAI-19-0007,⃝,148352.0,"IncFIB(pQil)_1_pQil,IncFII(Yp)_1_Yersenia",others,others,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1,12,40008,久留米大学病院,Fukuoka-B,Southwest,blaIMP-1,148.352
+151,282,40008-19-0008,JBEAAAI-19-0008,⃝,82206.0,IncM2_1  ,IncM2,M2,,kpneumoniae,Klebsiella spp,blaIMP-1,n.d.,40008,久留米大学病院,Fukuoka-B,Southwest,blaIMP-1,82.206
+152,294,40026-19-0048,JBEAACG-19-0048,⃝,164212.0,IncFIA(HI1)_1,IncFIA,FIA,Citrobacter freundii,cfreundii,Citrobacter freundii,blaIMP-1,98,40026,福岡赤十字病院,Fukuoka-C,Southwest,blaIMP-1,164.212
+153,295,40026-19-0081,JBEAACG-19-0081,⃝,81241.0,"IncR_1,IncFIA(HI1)_1_HI1",IncFIA-R,FIA-R,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,62,40026,福岡赤十字病院,Fukuoka-C,Southwest,blaIMP-1,81.241
+154,299,40027-19-0013,JBEAACH-19-0013,⃝,52220.0,untypeable,ND,ND,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1 ,11,40027,福岡大学病院,Fukuoka-D,Southwest,blaIMP-1,52.22
+155,300,40027-19-0274,JBEAACH-19-0274,⃝,29991.0,untypeable,ND,ND,Citrobacter braakii,cfreundii,Citrobacter freundii,blaIMP-1,525,40027,福岡大学病院,Fukuoka-D,Southwest,blaIMP-1,29.991
+156,301,40044-19-0001,JBEAAEE-19-0001,⃝,83236.0,"IncFIA(HI1)_1_HI1,IncR_1",IncFIA-R,FIA-R,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,62,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,83.236
+157,302,40044-19-0002,JBEAAEE-19-0002,⃝,370574.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,Enterobacter hormaechei subsp. hoffmannii,ecloacae,Enterobacter spp,blaIMP-1,78,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,370.574
+158,303,40044-19-0022,JBEAAEE-19-0022,⃝,78229.0,IncM2,IncM2,M2,Serratia marcescens,n.d.,others,blaIMP-1 ,n.d.,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,78.229
+159,304,40044-19-0042,JBEAAEE-19-0042,⃝,354164.0,"IncHI2A_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,133,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,354.164
+160,305,40044-19-0043,JBEAAEE-19-0043,⃝,354175.0,"IncHI2A_1,IncHI2_1,RepA_1_pKPC-CAV1321",IncHI2,HI2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,175,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,354.175
+161,306,40044-19-0043,JBEAAEE-19-0043,⃝,78229.0,IncM2,IncM2,M2,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,175,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,78.229
+162,307,40044-19-0050,JBEAAEE-19-0050,⃝,79759.0,"IncFIA(HI1)_1_HI1,IncR_1",IncFIA-R,FIA-R,Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,62,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,79.759
+163,308,40044-19-0074,JBEAAEE-19-0074,⃝,67626.0,pSL483_1,others,others,Klebsiella pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1,29,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,67.626
+164,309,40044-19-0099,JBEAAEE-19-0099,⃝,68443.0,pSL483_1,others,others,Citrobacter amalonaticus,n.d.,Enterobacter spp,blaIMP-1,n.d.,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,68.443
+165,310,40044-19-0100,JBEAAEE-19-0100,⃝,72196.0,"IncFIA(HI1)_1_HI1
+IncR_1",IncFIA-R,FIA-R,Klebsiella pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1,461,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,72.196
+166,311,40044-19-0118,JBEAAEE-19-0118,⃝,81898.0,IncM2_1,IncM2,M2,Klebsiella pneumoniae subsp. pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1 ,20,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,81.898
+167,314,40044-19-0154,JBEAAEE-19-0154,⃝,90364.0,IncM2_1,IncM2,M2,Klebsiella michiganensis,koxytoca,Klebsiella spp,blaIMP-1,n.d.,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,90.364
+168,315,40044-19-0155,JBEAAEE-19-0155,⃝,82206.0,IncM2_1,IncM2,M2,Enterobacter hormaechei subsp. hoffmannii,ecloacae,Enterobacter spp,blaIMP-1,78,40044,九州大学病院,Fukuoka-E,Southwest,blaIMP-1,82.206
+169,316,40048-19-0154,JBEAAEI-19-0154,⃝,80751.0,IncM2_1,IncM2,M2,Metakosakonia massiliensis,n.d.,others,blaIMP-1,n.d.,40048,社会医療法人　雪の聖母会　聖マリア病院,Fukuoka-F,Southwest,blaIMP-1,80.751
+170,321,40050-19-0081,JBEAAFA-19-0081,⃝,46257.0,untypeable,ND,ND,Klebsiella pneumoniae subsp. ozaenae,kpneumoniae,Klebsiella spp,blaIMP-1 ,n.d.,40050,飯塚病院,Fukuoka-G,Southwest,blaIMP-1,46.257
+171,322,40050-19-0086,JBEAAFA-19-0086,⃝,159181.0,IncFIB(pHCM2)_1_pHCM2,others,others,Enterobacter hormaechei subsp. hoffmannii,ecloacae,Enterobacter spp,blaIMP-1 ,78,40050,飯塚病院,Fukuoka-G,Southwest,blaIMP-1,159.181
+172,323,40050-19-0128,JBEAAFA-19-0128,⃝,46257.0,untypeable,ND,ND,,ecoli,Escherichia coli,blaIMP-1,131,40050,飯塚病院,Fukuoka-G,Southwest,blaIMP-1,46.257
+173,326,40050-19-0228,JBEAAFA-19-0228,⃝,52338.0,IncN_1,IncN,N,,ecoli,Escherichia coli,blaIMP-6 ,131,40050,飯塚病院,Fukuoka-G,Southwest,blaIMP-6,52.338
+174,327,40050-19-0275,JBEAAFA-19-0275,⃝,46259.0,,ND,ND,,kpneumoniae,Klebsiella spp,blaIMP-1,12,40050,飯塚病院,Fukuoka-G,Southwest,blaIMP-1,46.259
+175,331,40050-19-0446,JBEAAFA-19-0446,⃝,203212.0,"IncFIB(K)_1_Kpn3,IncFII_1_pKP91",IncFIB-FII,FIB-FII,Klebsiella pneumoniae,kpneumoniae,Klebsiella spp,blaIMP-1,1691,40050,飯塚病院,Fukuoka-G,Southwest,blaIMP-1,203.212
+176,337,43026-19-0107,JBEDACG-19-0107,⃝,161468.0,"IncFII(pECLA)_1,IncFIB(pECLA)_1,IncFII(pECLA)_1",IncFII(pECLA),FII(pECLA),Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,204,43026,公立玉名中央病院企業団　公立玉名中央病院,Kumamoto-A,Southwest,blaIMP-1,161.468
+177,338,43026-19-0108,JBEDACG-19-0108,⃝,161468.0,"IncFII(pECLA)_1,IncFIB(pECLA)_1,IncFII(pECLA)_1",IncFII(pECLA),FII(pECLA),Enterobacter hormaechei subsp. steigerwaltii,ecloacae,Enterobacter spp,blaIMP-1,204,43026,公立玉名中央病院企業団　公立玉名中央病院,Kumamoto-A,Southwest,blaIMP-1,161.468
+178,339,47001-19-0176,JBEHAAB-19-0176,⃝,63152.0,IncX3_1,IncX3,X3,Escherichia coli,ecoli,Escherichia coli,"blaNDM-5, blaOXA-181",648,47001,琉球大学医学部附属病院,Okinawa-A,Southwest,blaNDM-5,63.152

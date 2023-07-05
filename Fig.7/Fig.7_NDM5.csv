@@ -1,0 +1,16 @@
+,Unnamed: 0,X_axis,Y_axis,hospital_id_1,hospital_id,Gene,Klebsiella spp,Escherichia coli,Enterobacter spp,Citrobacter freundii,others,concat,Total,Y_axis_id,value_1,Y_axis_id_imp
+0,15,Kanagawa-C,IncX3,41,29,blaNDM-5,1.0,1.0,0.0,0.0,0.0,Kanagawa-C_IncX3,2.0,2,2.0,0
+1,16,Tokyo-P,IncX3,47,23,blaNDM-5,0.0,1.0,0.0,0.0,0.0,Tokyo-P_IncX3,1.0,2,2.0,0
+2,17,Hyogo-C,IncX3,18,52,blaNDM-5,0.0,1.0,0.0,0.0,0.0,Hyogo-C_IncX3,1.0,2,2.0,0
+3,18,Okinawa-A,IncX3,0,70,blaNDM-5,0.0,1.0,0.0,0.0,0.0,Okinawa-A_IncX3,1.0,2,2.0,0
+4,19,Kanagawa-C,IncN-R-X1,41,29,blaNDM-5,0.0,3.0,0.0,0.0,0.0,Kanagawa-C_IncN-R-X1,3.0,3,2.0,1
+5,89,Tokyo-E,IncFII,56,14,blaNDM-5,0.0,1.0,0.0,0.0,0.0,Tokyo-E_IncFII,1.0,11,2.0,2
+6,92,Tokyo-J,IncFIB-FII,52,18,blaNDM-5,1.0,0.0,0.0,0.0,0.0,Tokyo-J_IncFIB-FII,1.0,12,2.0,3
+7,95,Saitama-A,IncFIB-FII,66,4,blaNDM-5,0.0,1.0,0.0,0.0,0.0,Saitama-A_IncFIB-FII,1.0,12,2.0,3
+8,102,Tokushima-A,IncFIA-FIB-FII,12,58,blaNDM-5,0.0,3.0,0.0,0.0,0.0,Tokushima-A_IncFIA-FIB-FII,3.0,16,2.0,4
+9,103,Kanagawa-C,IncFIA-FIB-FII,41,29,blaNDM-5,0.0,5.0,0.0,0.0,0.0,Kanagawa-C_IncFIA-FIB-FII,5.0,16,3.0,4
+10,104,Kanagawa-G,IncFIA-FIB-FII,37,33,blaNDM-5,0.0,1.0,0.0,0.0,0.0,Kanagawa-G_IncFIA-FIB-FII,1.0,16,2.0,4
+11,105,Tokyo-G,IncFIA-FIB-FIC,54,16,blaNDM-5,0.0,2.0,0.0,0.0,0.0,Tokyo-G_IncFIA-FIB-FIC,2.0,17,2.0,5
+12,106,Aichi-H,IncFIA-FIB-FIC,26,44,blaNDM-5,0.0,1.0,0.0,0.0,0.0,Aichi-H_IncFIA-FIB-FIC,1.0,17,2.0,5
+13,107,Tokyo-Q,IncFIA-FIB-FIC,46,24,blaNDM-5,0.0,1.0,0.0,0.0,0.0,Tokyo-Q_IncFIA-FIB-FIC,1.0,17,2.0,5
+14,108,Kyoto-B,IncFIA-FIB-FIC,24,46,blaNDM-5,0.0,1.0,0.0,0.0,0.0,Kyoto-B_IncFIA-FIB-FIC,1.0,17,2.0,5

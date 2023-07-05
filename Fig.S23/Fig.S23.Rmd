@@ -1,0 +1,228 @@
+---
+---
+---
+
+library()
+
+```{r}
+Sys.setenv("http_proxy"="http://proxy2.nih.go.jp:8080")
+options(repos=local({ r <- getOption("repos"); r["CRAN"] <- "http://cran.ism.ac.jp"; r }))
+```
+
+library()
+
+```{r}
+
+```
+
+```{r}
+install.packages("tidyverse")
+```
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(ComplexHeatmap)
+library(circlize)
+
+```
+
+```{r}
+
+```
+
+```{r}
+ggplot(data=mpg)+geom_point(mapping=aes(x=displ,y=cty))
+```
+
+```{r}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("ComplexHeatmap")
+```
+
+```{r}
+
+```
+
+```{r}
+```
+
+```{r}
+
+```
+
+1.  <div>
+
+    1.  <div>
+
+        {python} for i in range(100): print(i)
+
+        </div>
+
+    </div>
+
+<!-- -->
+
+```{r}
+MLST_Ecoli <- read_csv("Fig_S23a_Ecoli.csv")
+MLST_Ecoli
+```
+
+)
+
+```{python}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+
+```
+
+```{r}
+```
+
+```{r}
+log_mean_mat <- as.matrix(MLST_Ecoli[,-1])
+rownames(log_mean_mat) <- c('Arterial blood', 'Ascites fluid', 'Bile', 'Catheter', 'Drainage', 'Feces', 'Injury part', 'Oral cavity', 'Other material', 'Pharyngeal mucus', 'Pus', 'Skin', 'Spontaneous micturition', 'Sputum', 'Vaginal secretions', 'Venous blood')
+colors = structure(1:4, names = c("1", "2", "3", "4"))
+ha = HeatmapAnnotation(foo = anno_barplot(cbind(1:11, 11:1), 
+    gp = gpar(fill = 2:3, col = 2:3)))
+Heatmap(log_mean_mat, name = "Count", col = rev(rainbow(4)), rect_gp = gpar(col = "black", lwd = 1))
+```
+
+```{r}
+
+set.seed(123)
+mat = matrix(rnorm(100), 10)
+rownames(mat) = paste0("R", 1:10)
+colnames(mat) = paste0("C", 1:10)
+column_ha = HeatmapAnnotation(foo1 = runif(10), bar1 = anno_barplot(cbind(1:10, 10:1)))
+row_ha = rowAnnotation(foo2 = runif(10), bar2 = anno_barplot(runif(10)))
+Heatmap(mat, name = "mat", top_annotation = column_ha, right_annotation = row_ha)
+#ha = HeatmapAnnotation(foo = anno_barplot(cbind(1:10, 10:1), 
+#    gp = gpar(fill = 2:3, col = 2
+```
+
+```{r}
+#E_coliのみ
+log_mean_mat <- as.matrix(MLST_Ecoli[,-1])
+rownames(log_mean_mat) <- c('Amniotic fluid', 'Bile', 'Blood', 'CV catheter', 'Ear specimen', 'Eye specimen', 'Gastrointestinal specimen', 'Genitourinary specimen', 'Others', 'Peritoneal dialysis fluid', 'Peritoneal fluid', 'Pus', 'Respiratory specimen', 'Sputum', 'Stool', 'Urine', 'n.d.')
+column_ha = HeatmapAnnotation(blaIMP = anno_barplot(height = unit(1, "cm"), cbind(c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))))
+row_ha = rowAnnotation(blaIMP = anno_barplot(cbind(c(0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 3, 0, 2, 6, 1),c(0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 2, 0))))
+#colors = structure(c("#E3E3E3", "#2266AF", "#4BB413", "#FFE600", "magenta"), names = c("0", "20", "40", "50", "100"))
+colors = structure(c("#E3E3E3", "#2288FF", "#21FF29", "#FFED37", "#FF21F8"), names = c("0", "20", "40", "50", "100"))
+Heatmap(log_mean_mat, name = "Count", rect_gp = gpar(col = "black", lwd = 0.5), row_names_gp = gpar(fontsize = 8), column_names_gp = gpar(fontsize = 8), top_annotation = column_ha, left_annotation = row_ha, col=colors, heatmap_legend_param = list(labels = c("0", "<10", ">=10, <50", ">=50, <100", ">=100")))
+```
+
+```{r}
+```
+
+```{r}
+MLST_Kp <- read_csv("Fig_S23c_Kp.csv")
+MLST_Kp
+```
+
+```{r}
+
+```
+
+```{r}
+```
+
+```{r}
+#IMP-6の数をKpneuに代入
+Kpneu = c(0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+```
+
+```{r}
+#数字が多すぎるせいか、エラーが出てしまうので、IMP-6の数をKpneuの変数に代入してから
+log_mean_mat_Kp <- as.matrix(MLST_Kp[,-1])
+rownames(log_mean_mat_Kp) <- c('Bile', 'Blood', 'CV catheter', 'Cerebrospinal fluid', 'Gastrointestinal specimen', 'Genitourinary specimen', 'Others', 'Peritoneal fluid', 'Plueral effusion fluidd', 'Pus', 'Respiratory specimen', 'Sputum', 'Stool', 'Synovial fluid', 'Urine', 'n.d.')
+column_ha = HeatmapAnnotation(blaIMP = anno_barplot(cbind(c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 4), Kpneu)))
+ha = HeatmapAnnotation(foo = anno_mark(at = c(22, 49, 48,67,106,107,113,127,134,148,154,190,196,203,227,251,291,327,338,350), labels = c('12', '15', '147', '17', '218', '219', '23', '25', '268', '29', '307', '35', '36', '37', '412', '45', '65', '86', '896', 'n.d.'), side = "bottom"))
+row_ha = rowAnnotation(blaIMP = anno_barplot(cbind(c(2, 4, 0, 0, 4, 0, 1, 0, 0, 1, 0, 15, 22, 0, 7, 2),c(1, 3, 0, 0, 0, 1, 2, 1, 0, 3, 0, 5, 3, 0, 2, 0))))
+#colors = structure(c("#E3E3E3", "#2266AF", "#4BB413", "#FFE600"), names = c("0", "20", "40", "50"))
+colors = structure(c("#E3E3E3", "#2288FF", "#21FF29", "#FFED37"), names = c("0", "20", "40", "50"))
+Heatmap(log_mean_mat_Kp, name = "Count", col = colors, rect_gp = gpar(col = "black", lwd = 0.5), bottom_annotation = ha, row_names_gp = gpar(fontsize = 7), show_column_names = FALSE, column_names_gp = gpar(fontsize = 2), top_annotation = column_ha, left_annotation = row_ha, heatmap_legend_param = list(labels = c("0", "<10", ">=10, <50", ">=50, <100")))
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+lgd = Legend(labels = c("aaaaa\naaaaa", "c", "d", "bbbbb\nbbbbb"),
+    legend_gp = gpar(fill = 1:4), nrow = 2)
+lgd
+```
+
+```{r}
+MLST_Kp_zoom <- read_csv("Fig_S23d_MLST_Kp_zoom.csv")
+MLST_Kp_zoom
+```
+
+```{r}
+#Klebsiellaのzoomバージョン
+MLST_Kp_zoom_1 <- as.matrix(MLST_Kp_zoom[,-1])
+rownames(MLST_Kp_zoom_1) <- c('Bile', 'Blood', 'CV catheter', 'Cerebrospinal fluid', 'Gastrointestinal specimen', 'Genitourinary specimen', 'Others', 'Peritoneal fluid', 'Plueral effusion fluid', 'Pus', 'Respiratory specimen', 'Sputum', 'Stool', 'Synovial fluid', 'Urine', 'n.d.')
+column_ha = HeatmapAnnotation(blaIMP = anno_barplot(cbind(c(11, 0, 11, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 4),c(2, 0, 0, 0, 0, 0, 2, 0, 3, 0, 3, 0, 0, 4, 0, 0, 0, 0, 0, 0))))
+row_ha = rowAnnotation(blaIMP = anno_barplot(cbind(c(1, 2, 0, 0, 3, 0, 1, 0, 0, 1, 0, 10, 7, 0, 4, 1),c(0, 2, 0, 0, 0, 1, 2, 1, 0, 3, 0, 3, 2, 0, 0, 0))))
+#colors = structure(c("#E3E3E3", "#2266AF", "#4BB413"), names = c("0", "20", "40"))
+colors = structure(c("#E3E3E3", "#2288FF", "#21FF29", "#FFED37"), names = c("0", "20", "40", "50"))
+Heatmap(MLST_Kp_zoom_1, name = "Count", col = colors, rect_gp = gpar(col = "black", lwd = 0.5), row_names_gp = gpar(fontsize = 8), show_column_names = TRUE, column_names_gp = gpar(fontsize = 8), top_annotation = column_ha, left_annotation = row_ha, heatmap_legend_param = list(labels = c("0", "<10", ">=10, <50", ">=50, <100")))
+```
+
+```{r}
+MLST_Eco_zoom <- read_csv("MLST_Eco_zoom.csv")
+MLST_Eco_zoom
+```
+
+```{r}
+MLST_Eco_zoom <- read_csv("Fig_S23b_Eco_zoom.csv")
+MLST_Eco_zoom
+```
+
+```{r}
+MLST_Eco_zoom_1 <- as.matrix(MLST_Eco_zoom[,-1])
+rownames(MLST_Eco_zoom_1) <- c('Amniotic fluid', 'Bile', 'Blood', 'CV catheter', 'Ear specimen', 'Eye specimen', 'Gastrointestinal specimen', 'Genitourinary specimen', 'Others', 'Peritoneal fluid', 'Pus', 'Respiratory specimen', 'Sputum','Stool', 'Urine', 'n.d.')
+column_ha = HeatmapAnnotation(blaIMP = anno_barplot(height = unit(1, "cm"), cbind(c(0, 1, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0),c(0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0))))
+row_ha = rowAnnotation(blaIMP = anno_barplot(cbind(c(0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 3, 0, 1, 3, 0),c(0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0))))
+#colors = structure(c("#E3E3E3", "#2266AF", "#4BB413", "#FFE600", "magenta"), names = c("0", "20", "40", "50", "100"))
+colors = structure(c("#E3E3E3", "#2288FF", "#21FF29", "#FFED37", "#FF21F8"), names = c("0", "20", "40", "50", "100"))
+Heatmap(MLST_Eco_zoom_1, name = "Count", rect_gp = gpar(col = "black", lwd = 0.5), row_names_gp = gpar(fontsize = 8), column_names_gp = gpar(fontsize = 8), top_annotation = column_ha, left_annotation = row_ha, col=colors, heatmap_legend_param = list(labels = c("0", "<10", ">=10, <50", ">=50, <100", ">=100")))
+```
+
+```{r}
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
