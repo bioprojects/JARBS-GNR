@@ -6,13 +6,17 @@ This page explains custom codes used in the paper "Long-read metagenomics using 
 
 The following figures were created using the custom codes as explained below
 - Fig. 7: Geographical distribution of blaIMP-1, blaIMP-6, and blaNDM genes stratified by replicon type and species carrying the plasmids.
+
 - Fig. S23: Relationship between specimen sources, STs, and the number of strains 
   harboring a blaIMP-1 or blaIMP-6 gene.
+  
 - Fig. S24: Region, species, antimicrobial susceptibility profiles, replicon type, plasmid size, and resistance genes detected across the complete sequences of plasmids harboring
   (a) blaIMP-1 and (b) blaIMP-6, respectively
+  
 - Fig. S25: Relationship between replicon type and plasmid size for the complete
   sequences of plasmids harboring blaIMP-1, blaIMP-6, and blaNDM-5, respectively
-- 
+  
+  
 
 This page explains the custome codes according to the guildeline "For manuscripts utilizing custome algorithms or software that are central to the research and no yet described in published literature" of Nature Research.
 
