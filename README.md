@@ -7,13 +7,12 @@ This page explains custom codes used in the paper "Long-read metagenomics using 
 The following figures were created using the custom codes as explained below
 - Fig. 7: Geographical distribution of blaIMP-1, blaIMP-6, and blaNDM genes stratified by replicon type and species carrying the plasmids.
 
-- Fig. S23: Relationship between specimen sources, STs, and the number of strains 
+- Supplementary Figure 27-28: Relationship between specimen sources, STs, and the number of strains 
   harboring a blaIMP-1 or blaIMP-6 gene.
   
-- Fig. S24: Region, species, antimicrobial susceptibility profiles, replicon type, plasmid size, and resistance genes detected across the complete sequences of plasmids harboring
-  (a) blaIMP-1 and (b) blaIMP-6, respectively
+- Supplementary Figure 29-30: Region, species, antimicrobial susceptibility profiles, replicon type, plasmid size, and resistance genes detected across the complete sequences of plasmids harboring blaIMP-1 and blaIMP-6, respectively
   
-- Fig. S25: Relationship between replicon type and plasmid size for the complete
+- Supplementary Figure 31: Relationship between replicon type and plasmid size for the complete
   sequences of plasmids harboring blaIMP-1, blaIMP-6, and blaNDM-5, respectively
   
   
@@ -65,15 +64,14 @@ Please go to the directory of each figure, and execute the code.
   - (expected run time: within a minute)
 
 
-##### Fig. S23: Relationship between specimen sources, STs, and the number of strains harboring a blaIMP-1 or blaIMP-6 gene.
-- Fig.S23.Rmd
+##### Supplementary Figure 27-28: Relationship between specimen sources, STs, and the number of strains harboring a blaIMP-1 or blaIMP-6 gene.
+- SupplFig27-28.Rmd
   - (expected run time: within a minute)
 
-##### Fig. S24: Region, species, antimicrobial susceptibility profiles, replicon type, plasmid size, and resistance genes detected across the complete sequences of plasmids harboring (a) blaIMP-1 and (b) blaIMP-6, respectively
-- Fig.S24.Rmd
+##### Supplementary Figure 29-30: Region, species, antimicrobial susceptibility profiles, replicon type, plasmid size, and resistance genes detected across the complete sequences of plasmids harboring blaIMP-1 and blaIMP-6, respectively
+- SupplFig29-30.Rmd
   - (expected run time: within a minute)
 
-##### Fig. S25: Relationship between replicon type and plasmid size for the complete sequences of plasmids harboring blaIMP-1, blaIMP-6, and blaNDM-5, respectively
-- FigS25.ipynb
+##### Supplementary Figure 31: Relationship between replicon type and plasmid size for the complete sequences of plasmids harboring blaIMP-1, blaIMP-6, and blaNDM-5, respectively
+- SupplFig31.ipynb
   - (expected run time: within a minute)
-

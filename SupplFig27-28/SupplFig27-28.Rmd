@@ -66,7 +66,7 @@ BiocManager::install("ComplexHeatmap")
 <!-- -->
 
 ```{r}
-MLST_Ecoli <- read_csv("Fig_S23a_Ecoli.csv")
+MLST_Ecoli <- read_csv("SupplFig27a_Ecoli.csv")
 MLST_Ecoli
 ```
 
@@ -125,7 +125,7 @@ Heatmap(log_mean_mat, name = "Count", rect_gp = gpar(col = "black", lwd = 0.5), 
 ```
 
 ```{r}
-MLST_Kp <- read_csv("Fig_S23c_Kp.csv")
+MLST_Kp <- read_csv("SupplFig28a_Kp.csv")
 MLST_Kp
 ```
 
@@ -169,7 +169,7 @@ lgd
 ```
 
 ```{r}
-MLST_Kp_zoom <- read_csv("Fig_S23d_MLST_Kp_zoom.csv")
+MLST_Kp_zoom <- read_csv("SupplFig28b_Kp_zoom.csv")
 MLST_Kp_zoom
 ```
 
@@ -185,12 +185,12 @@ Heatmap(MLST_Kp_zoom_1, name = "Count", col = colors, rect_gp = gpar(col = "blac
 ```
 
 ```{r}
-MLST_Eco_zoom <- read_csv("MLST_Eco_zoom.csv")
+MLST_Eco_zoom <- read_csv("SupplFig27b_Eco_zoom.csv")
 MLST_Eco_zoom
 ```
 
 ```{r}
-MLST_Eco_zoom <- read_csv("Fig_S23b_Eco_zoom.csv")
+MLST_Eco_zoom <- read_csv("SupplFig27b_Eco_zoom.csv")
 MLST_Eco_zoom
 ```
 

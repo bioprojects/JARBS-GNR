@@ -97,7 +97,7 @@ library(circlize)
 ```
 
 ```{r}
-AMR_SIR_imp6_new <- read_csv("figS24b.csv")
+AMR_SIR_imp6_new <- read_csv("SupplFig30.csv")
 AMR_SIR_imp6_new
 ```
 
@@ -179,7 +179,7 @@ h_all = h_reion_1 + h_Strain_1 + h_SIR + h_Inc + h2
 ```
 
 ```{r}
-AMR_SIR_imp1 = read_csv("figS24a.csv")
+AMR_SIR_imp1 = read_csv("SupplFig29.csv")
 AMR_SIR_imp1
 ```
 
